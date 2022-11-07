@@ -1,9 +1,11 @@
+import DFS.Factorial;
 import DFS.TenToBinary;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        TenToBinary dfs = new TenToBinary();
-        dfs.DFS(9);
+        Factorial dfs = new Factorial();
+
+        System.out.println(dfs.DFS(5));
     }
 }
 
